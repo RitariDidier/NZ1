@@ -10,7 +10,7 @@ const LoginScreen = ({ history }) => {
 
   const handleClick = () => {
     console.log("Redirecting to Home");
-    history.push("/");
+    history.push("/home");
   };
   return (
     <section>

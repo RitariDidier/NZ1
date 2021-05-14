@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;1,400&display=swap");
+
+.wrapper * {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  padding: 0;
+  box-sizing: border-box;
+  /*   background: #9ecae0; */
+  width: 100%;
+  height: 100%;
+}
+
+.leaderboard_section {
+  width: 500px;
+  margin: 20px auto 0;
+  background: #fb444491;
+  border-radius: 5px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.leaderboard_section ul {
+  display: flex;
+}
+
+.leaderboard_section ul li {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3a3d51;
+  cursor: pointer;
+}
+
+.leaderboard_section ul li:hover,
+.leaderboard_section ul li.active {
+  color: #f3f5e4;
+}
+
+.leaderboard_wrap {
+  width: 100%;
+  border-radius: 5px;
+}
+.leaderboard_wrap .leaderboard_item {
+  padding: 25px;
+}
+
+.leaderboard_wrap .leaderboard_item .leaderboard_mem {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #cfbf70;
+}
+
+.leaderboard_wrap .leaderboard_item .leaderboard_mem:first-child {
+  padding-top: 0;
+}
+
+.leaderboard_wrap .leaderboard_item .leaderboard_mem:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.leaderboard_wrap .leaderboard_mem .img {
+  width: 50px;
+}
+
+.leaderboard_wrap .leaderboard_mem .img img {
+  display: block;
+  width: 100%;
+}
+
+.leaderboard_wrap .leaderboard_item .name_bar {
+  margin: 0 20px;
+  width: calc(100% - 186px);
+}
+
+.leaderboard_wrap .leaderboard_item .name_bar p {
+  color: #3a3d51;
+  font-weight: inherit;
+  font-size: 18px;
+}
+
+.leaderboard_wrap .leaderboard_item .name_bar p span {
+  margin-right: 5px;
+}
+
+.leaderboard_wrap .leaderboard_item .points {
+  width: 100px;
+  color: #3a3d51;
+  margin-top: 41px;
+}
+
+.leaderboard_wrap .leaderboard_item .bar_wrap {
+  height: 5px;
+  width: 100%;
+  background: #c1bf9d;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.leaderboard_wrap .leaderboard_item .bar_wrap .inner_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #e94545de;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.leaderboard_title {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 25px;
+}
