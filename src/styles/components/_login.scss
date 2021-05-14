@@ -60,6 +60,12 @@ section .container .user .formBx {
   padding: 4rem;
   transition: 1s;
 }
+section .container .signinBx .formBx {
+  margin-top: 8%;
+}
+section .container .signupBX .formBx {
+  margin-top: 4%;
+}
 section .container .user .formBx form h2 {
   font-size: 1.8rem;
   font-weight: 600;
@@ -160,5 +166,9 @@ section .container.active .signinBx .imgBx {
 .inputBox input:focus ~ span,
 .inputBox input:valid ~ span {
   transform: translateY(-24px);
-  color: $terciary;
+  color: $tertiary;
+}
+
+.user .imgBx svg {
+  max-width: 70%;
 }
