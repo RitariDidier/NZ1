@@ -1,0 +1,57 @@
+// Card Primary
+.cardPrimary {
+  background-color: $terciary;
+  .fields {
+    .description {
+      color: $white;
+    }
+    .polygon1,
+    .path1 {
+      fill: rgba(214, 226, 110, 0.83);
+    }
+
+    .path2,
+    .path6 {
+      fill: rgba(214, 226, 110, 0.7);
+    }
+
+    .path3,
+    .path5 {
+      fill: rgba(214, 226, 110, 0.5);
+    }
+
+    .path4,
+    .polygon2 {
+      fill: rgba(214, 226, 110, 0.226);
+    }
+  }
+}
+
+// CARD SECONDARY
+.cardSecondary {
+  background-color: $primary;
+  .fields {
+    .description {
+      color: $terciary;
+    }
+    .polygon1,
+    .path1 {
+      fill: rgba(2, 117, 180, 0.83);
+    }
+
+    .path2,
+    .path6 {
+      fill: rgba(2, 117, 180, 0.7);
+    }
+
+    .path3,
+    .path5 {
+      fill: rgba(2, 117, 180, 0.5);
+    }
+
+    .path4,
+    .polygon2 {
+      fill: rgba(2, 117, 180, 0.226);
+    }
+  }
+}
