@@ -1,8 +1,10 @@
 @import "./base/settings.scss";
 @import "./base/base.scss";
+@import "./base/background.scss";
 
 //* Components
 
 @import "./components/login.scss";
 @import "./components/takeChallenge.scss";
-@import "./components/_cardStyles.scss";
+@import "./components/cardStyles.scss";
+@import "./components/navbar.scss";
