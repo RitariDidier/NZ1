@@ -1,12 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar__field">
-          <h3>ICONS</h3>
-        </div>
         <div className="navbar__field">
           <svg
             version="1.1"
@@ -100,10 +98,18 @@ const navbar = () => {
           </svg>
         </div>
         <div className="navbar__field--buttons">
-          <button className="button">Home</button>
-          <button className="button">Challenges</button>
-          <button className="button">Profile</button>
-          <button className="button">LogOut</button>
+          <button className="button">
+            <Link to="/home">Home</Link>
+          </button>
+          <button className="button">
+            <Link to="/takeChallenge">Challenges</Link>
+          </button>
+          <button className="button">
+            <Link>Profile</Link>
+          </button>
+          <button className="button">
+            <Link to="/login">Logout</Link>
+          </button>
         </div>
       </nav>
     </>

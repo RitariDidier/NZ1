@@ -4,7 +4,7 @@
 
 .container_home {
   height: 100vh;
-  min-height: 850px;
+  min-height: 780px;
   min-width: 580px;
   /* background-image: url("resources/background.jpg");
   background-size: cover; */
@@ -126,7 +126,8 @@
     max-height: 900px;
   }
   .signout {
-    position: absolute;
+    display: none;
+    /*     position: absolute;
     margin: 1.1% 1.1% 0 0;
     top: 0;
     right: 0;
@@ -143,7 +144,7 @@
     font-weight: 400;
     color: black;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
   }
 }
 
