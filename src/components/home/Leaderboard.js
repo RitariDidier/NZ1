@@ -47,7 +47,7 @@ const Leaderboard = () => {
                 data-li="Month"
                 onClick={() => handleClick("Month")}
               >
-                month
+                Month
               </li>
               <li
                 data-li="year"
