@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 
 const TakeChallenge = () => {
+  console.log("Rendered Take Challenge")
   return (
     <>
       <div className="bg">
