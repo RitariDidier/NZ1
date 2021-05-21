@@ -1,7 +1,9 @@
 import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
-import HomeScreen from "../components/home/HomeScreen";
 import Home from "../components/home/Home";
+// import HomeScreen from "../components/home/HomeScreen";
+// import Home from "../components/home/Home";
+
 import Navbar from "../components/navbar/Navbar";
 import TakeChallenge from "../components/takeChallenges/TakeChallenge";
 

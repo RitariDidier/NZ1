@@ -105,7 +105,7 @@ const navbar = () => {
             <Link to="/takeChallenge">Challenges</Link>
           </button>
           <button className="button">
-            <Link>Profile</Link>
+            <Link to="">Profile</Link>
           </button>
           <button className="button">
             <Link to="/login">Logout</Link>

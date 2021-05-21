@@ -28,6 +28,7 @@ section .container .user .imgBx {
   width: 100%;
   height: 100%;
   /* background: #ff0; */
+  -webkit-transition: 1s;
   transition: 1s;
 }
 section .container .user .imgBx img {
@@ -58,6 +59,7 @@ section .container .user .formBx {
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  -webkit-transition: 1s;
   transition: 1s;
 }
 section .container .signinBx .formBx {
@@ -98,6 +100,7 @@ section .container .user .formBx form input[type="submit"] {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1px;
+  -webkit-transition: 1s;
   transition: 1s;
 }
 section .container .user .formBx form .signup {
@@ -163,11 +166,14 @@ section .container.active .signinBx .imgBx {
   pointer-events: none;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   margin-top: 5%;
 }
 .inputBox input:focus ~ span,
 .inputBox input:valid ~ span {
+  
+  -webkit-transform: translateY(-24px);
   transform: translateY(-24px);
   color: $tertiary;
 }
