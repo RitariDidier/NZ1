@@ -1,13 +1,7 @@
-* {
-  font-family: "Montserrat", sans-serif;
-}
-
 .container_home {
   height: 100vh;
-  min-height: 780px;
+  min-height: 850px;
   min-width: 580px;
-  /* background-image: url("resources/background.jpg");
-  background-size: cover; */
   background-color: #e5f3f77d;
   opacity: 1;
   background-image: repeating-radial-gradient(
@@ -19,9 +13,7 @@
 }
 
 .leaderboard {
-  /*   display: inline-block; */
   width: 48%;
-  /*   background-color: aquamarine; */
   height: 100%;
 }
 
@@ -35,30 +27,25 @@
 .leaderboard-right h1 {
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 30px;
   font-size: 50px;
   color: rgb(70, 67, 67);
 }
 
 .upper {
-  /*   background-color: red; */
   padding-top: 10px;
 }
 
 .upper p {
   text-align: center;
   font-size: 30px;
-  margin: 0;
+  margin-top: 1rem;
 }
 
 .middle {
   display: flex;
   flex-direction: row;
 }
-
-/* .bottom {
-  background-color: blue;
-}
- */
 
 .btn-link:hover {
   background-color: #f2faa79f;
@@ -79,7 +66,7 @@
   display: block;
   padding-top: 14px;
   background-color: #f3f5e4;
-  margin: 0 auto 0 auto;
+  margin: 10px auto 0 auto;
   border-radius: 0.2em;
   box-sizing: border-box;
   text-decoration: none;
@@ -90,10 +77,41 @@
   text-align: center;
   transition: all 0.2s;
   margin-bottom: 5px;
+  box-shadow: 2px 2px 8px #cecfc1, -2px -2px 8px #cecfc1;
+}
+
+.chart {
+  margin: 8% auto 0 auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background: #f3f5e4;
+  box-shadow: 2px 2px 8px #cecfc1, -2px -2px 8px #cecfc1;
+  width: 80%;
+  max-width: 500px;
+}
+
+.chart > div,
+.chart > h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.chart > h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #5d5f5a;
 }
 @media screen and (max-width: 1160px) {
+  .chart {
+    display: none;
+  }
   .wrapper {
     margin-top: 40px;
+  }
+
+  .btn-link {
+    min-width: 450px;
   }
   .leaderboard-right {
     width: 100%;
@@ -127,30 +145,12 @@
   }
   .signout {
     display: none;
-    /*     position: absolute;
-    margin: 1.1% 1.1% 0 0;
-    top: 0;
-    right: 0;
-    width: 15%;
-    min-width: 100px;
-    height: 40px;
-    padding-top: 9px;
-    background-color: #f3f5e4;
-    border-radius: 0.2em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: black;
-    text-align: center;
-    margin-bottom: 5px; */
   }
 }
 
 @media screen and (min-width: 1161px) {
   .wrapper {
-    margin-top: 70px;
+    margin-top: 88px;
   }
   .leaderboard_section {
     height: 400px;

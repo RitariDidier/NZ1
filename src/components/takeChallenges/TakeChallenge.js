@@ -1,9 +1,10 @@
 import React from "react";
 import Card from "./Card";
+import Transition from "../Transition";
 
 const TakeChallenge = () => {
   return (
-    <>
+    <Transition>
       <div className="bg">
         <div className="bg__Shape1s"></div>
       </div>
@@ -19,7 +20,7 @@ const TakeChallenge = () => {
           <Card style="cardOctonary" number="8" />
         </div>
       </div>
-    </>
+    </Transition>
   );
 };
 

@@ -98,18 +98,18 @@ const navbar = () => {
           </svg>
         </div>
         <div className="navbar__field--buttons">
-          <button className="button">
-            <Link to="/home">Home</Link>
-          </button>
-          <button className="button">
-            <Link to="/takeChallenge">Challenges</Link>
-          </button>
-          <button className="button">
-            <Link>Profile</Link>
-          </button>
-          <button className="button">
-            <Link to="/login">Logout</Link>
-          </button>
+          <Link className="btn-nav" to="/home">
+            Home
+          </Link>
+          <Link className="btn-nav" to="/takeChallenge">
+            Challenges
+          </Link>
+          <Link className="btn-nav" to="/home">
+            Profile
+          </Link>
+          <Link className="btn-nav" to="/login">
+            Logout
+          </Link>
         </div>
       </nav>
     </>

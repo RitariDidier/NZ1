@@ -1,25 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;1,400&display=swap");
-
 .wrapper * {
   list-style: none;
-  font-family: "Montserrat", sans-serif;
-}
-
-.wrapper {
-  padding: 0;
-  box-sizing: border-box;
-  /*   background: #9ecae0; */
-  width: 100%;
-  height: 100%;
 }
 
 .leaderboard_section {
   width: 500px;
-  margin: 20px auto 0;
+  margin: 30px auto 0;
   background: #fb444491;
   border-radius: 5px;
-  padding-top: 30px;
-  position: relative;
+  padding-top: 40px;
 }
 
 .leaderboard_section ul {
@@ -32,6 +20,9 @@
   font-weight: 600;
   color: #3a3d51;
   cursor: pointer;
+  text-transform: capitalize;
+  padding-left: 4rem;
+  padding-bottom: 1rem;
 }
 
 .leaderboard_section ul li:hover,
@@ -50,7 +41,7 @@
 .leaderboard_wrap .leaderboard_item .leaderboard_mem {
   display: flex;
   align-items: center;
-  padding: 15px 0;
+  padding: 25px 0;
   border-bottom: 1px solid #cfbf70;
 }
 
@@ -115,6 +106,7 @@
 }
 
 .leaderboard_title {
+  margin-top: 5rem;
   text-align: center;
   margin-bottom: 12px;
   font-size: 25px;
