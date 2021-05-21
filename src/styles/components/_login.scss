@@ -114,6 +114,9 @@ section .container .user .formBx form .signup a {
   text-decoration: none;
   color: $primary;
 }
+section .container .user .formBx form .signup a:hover {
+  cursor: pointer;
+}
 section .container .signupBX {
   pointer-events: none;
 }

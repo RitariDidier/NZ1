@@ -5,8 +5,11 @@ html {
 }
 * {
   box-sizing: border-box;
+  // margin: 0; lo puse en body
+  /*   padding: 0; creo que no se necesita*/
+}
+body {
   margin: 0;
-  padding: 0;
 }
 
 .pointer {
