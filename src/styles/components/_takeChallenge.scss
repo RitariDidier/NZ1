@@ -28,7 +28,6 @@
       z-index: -1;
       left: 43%;
       top: -15%;
-      
       -webkit-transform: rotate(30deg); 
       -moz-transform: rotate(30deg); 
       transform: rotate(30deg);  
@@ -36,7 +35,6 @@
     }
     .fields{
       z-index: 1;
-
     }
    
   }
@@ -44,7 +42,6 @@
     -webkit-transition: 0.5s;
     -moz-transition:0.5s;
     transition: 0.5s;
-    
     width: 40px;
   }
   .card:hover .description__title {
@@ -103,7 +100,6 @@
   .fields {
     display: grid;
     grid-template-columns: 3fr 3fr 1fr;
-    
   }
   
   .button {
