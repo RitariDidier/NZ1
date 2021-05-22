@@ -15,7 +15,7 @@ const Card = ({ style, number }) => {
             </div>
           </div>
           <div className="field">
-            <svg
+            {/* <svg
               version="1.0"
               id="Capa_1"
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const Card = ({ style, number }) => {
                       l-71.378,276.011h28.064l42.863-167.199L224.86,130.689z"
                 />
               </g>
-            </svg>
+            </svg> */}
           </div>
           <div className="field">
             <button className="button">Take Challenge</button>

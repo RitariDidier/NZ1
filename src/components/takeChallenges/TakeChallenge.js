@@ -3,6 +3,7 @@ import Card from "./Card";
 import Transition from "../Transition";
 
 const TakeChallenge = () => {
+  console.log("Rendered Take Challenge")
   return (
     <Transition>
       <div className="bg">

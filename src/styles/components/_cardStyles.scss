@@ -206,8 +206,10 @@
     }
     .button {
       background-color: rgb(255, 255, 255);
-      color: rgb(97, 90, 90);
     }
+  }
+  :hover .button {
+    color: rgb(97, 90, 90) !important;
   }
 }
 .cardSeptenary {
@@ -243,6 +245,9 @@
       background-color: rgb(255, 255, 255);
       color: rgb(153, 26, 26);
     }
+  }
+  :hover .button {
+    color: rgb(153, 26, 26) !important;
   }
 }
 .cardOctonary {
