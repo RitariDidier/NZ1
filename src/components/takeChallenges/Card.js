@@ -5,7 +5,15 @@ const Card = ({ style, number }) => {
   return (
     <>
       <div className={`card ${style}`}>
-        <div className="bg-card"></div>
+
+        <div className="bg-card">
+          <div className="bg-left"></div>
+          <div className="bg-mid">
+        
+          
+          </div>
+        </div>
+
         <div className="fields">
           <div className="field description">
             <h3 className="description__title">Challenge #{number}</h3>

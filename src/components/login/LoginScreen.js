@@ -17,6 +17,7 @@ const LoginScreen = ({ history }) => {
     <Transition>
       <section>
         <div className="bg"></div>
+        
         <div className="container">
           <div className="user signinBx">
             <div className="imgBx">

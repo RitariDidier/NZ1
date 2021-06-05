@@ -2,9 +2,18 @@
 .cardPrimary {
   background-color: $tertiary;
   .bg-card {
-    background-color: $white;
+   
+    .bg-left{
+      background-color: $tertiary;
+     
+    }
+    .bg-mid{
+      background-color: $white;
+    }
+    
   }
   .fields {
+
     .description {
       color: $white;
     }
@@ -37,7 +46,16 @@
 .cardSecondary {
   background-color: $primary;
   .bg-card {
-    background-color: $white;
+    .bg-left{
+      background-color: $primary;
+      width: 300px;
+      
+    }
+    .bg-mid{
+      background-color: $white;
+      width: 200px;
+      
+    }
   }
   .fields {
     .description {
@@ -71,11 +89,21 @@
 //cardTertiary
 
 .cardTertiary {
-  background-color: $white;
+ 
   .bg-card {
-    background-color: $primary;
+    background-color: $white;
+    .bg-left{
+      background-color: $white;
+      width: 300px;
+      
+    }
+    .bg-mid{
+      background-color: $tertiary;
+      width: 200px;
+      
+    }
   }
-  border: 1px solid $primary;
+  border: 1px solid $tertiary ;
   .fields {
     .description {
       color: $tertiary;
@@ -106,9 +134,19 @@
 }
 //  card Quinary
 .cardQuaternary {
-  background-color: $white;
+
   .bg-card {
-    background-color: rgb(97, 90, 90);
+    background-color: $white;
+     .bg-left{
+      background-color: $white;
+      width: 300px;
+      
+    }
+    .bg-mid{
+      background-color: rgb(97, 90, 90);
+      width: 200px;
+      
+    }
   }
   border: 1px solid rgb(97, 90, 90);
   .fields {
@@ -140,9 +178,19 @@
   }
 }
 .cardQuinary {
-  background-color: $white;
+ 
   .bg-card {
-    background-color: $primary;
+    background-color: $white;
+    .bg-left{
+      background-color: $white;
+      width: 300px;
+      
+    }
+    .bg-mid{
+      background-color: $primary;
+      width: 200px;
+      
+    }
   }
   border: 1px solid $primary;
   .fields {
@@ -176,9 +224,19 @@
 }
 
 .cardSenary {
-  background-color: rgb(97, 90, 90);
+  
   .bg-card {
-    background-color: $primary;
+   background-color: rgb(97, 90, 90);
+    .bg-left{
+     background-color: rgb(97, 90, 90);
+      width: 300px;
+      
+    }
+    .bg-mid{
+      background-color: $primary;
+      width: 200px;
+      
+    }
   }
   border: 1px solid $primary;
   .fields {
@@ -213,9 +271,18 @@
   }
 }
 .cardSeptenary {
-  background-color: rgb(153, 26, 26);
+ 
   .bg-card {
-    background-color: rgb(97, 90, 90);
+    background-color: rgb(153, 26, 26);
+    .bg-left{
+      background-color: rgb(153, 26, 26);
+      width: 300px;
+    }
+    .bg-mid{
+      background-color: rgb(97, 90, 90);
+      width: 200px;
+      
+    }
   }
   border: 1px solid $primary;
   .fields {
@@ -251,9 +318,19 @@
   }
 }
 .cardOctonary {
-  background-color: rgb(255, 255, 255);
+ 
   .bg-card {
-    background-color: rgb(97, 90, 90);
+    background-color: rgb(255, 255, 255);
+    .bg-left{
+      background-color: rgb(255, 255, 255);
+      width: 300px;
+      
+    }
+    .bg-mid{
+      background-color: rgb(97, 90, 90);
+      width: 200px;
+      
+    }
   }
   border: 1px solid rgb(153, 26, 26);
   .fields {

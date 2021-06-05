@@ -3,12 +3,9 @@ import Card from "./Card";
 import Transition from "../Transition";
 
 const TakeChallenge = () => {
-  console.log("Rendered Take Challenge")
+
   return (
     <Transition>
-      <div className="bg">
-        <div className="bg__Shape1s"></div>
-      </div>
       <div className="containerCard">
         <div className="cards">
           <Card style="cardPrimary" number="1" />
