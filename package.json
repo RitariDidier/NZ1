@@ -1,6 +1,16 @@
 {
-  "name": "d1",
-  "version": "0.1.0",
+  "name": "the-inspectorate-games",
+  "version": "0.0.1",
+  "description": "The Inspectorate Games project for AUT R&D",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"npm run start-watch\" \"cd react && npm start\"",
+    "heroku-postbuild": "concurrently \"npm run start-watch\" \"cd react && npm start\""
+  },
+  "author": "Maya Ashizumi-Munn, Jake Gardner, Vito Cheng, Min Chun, Mel Toa, Tomas Sarmiento, Didier Sepulveda",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
@@ -21,13 +31,6 @@
     "react-vis": "^1.11.7",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
-  },
-  "scripts": {
-    "start": "cd react && react-scripts start",
-    "build": "cd react && react-scripts build",
-    "test": "cd react && react-scripts test",
-    "eject": "cd react && react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "eslintConfig": {
     "extends": [
