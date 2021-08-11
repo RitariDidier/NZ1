@@ -12,13 +12,17 @@
     flex-wrap: wrap;
     gap: 4rem;
     margin: 0;
+    box-sizing: border-box;
 
     > article {
       position: relative;
-      width: 180px;
-      height: 180px;
+      width: 40vw;
+      height: 40vw;
+      max-width: 180px;
+      max-height: 180px;
       transform-style: preserve-3d;
       perspective: 1000px;
+      margin: auto;
       > img {
         border-radius: 100px;
         position: absolute;
@@ -59,16 +63,30 @@
       }
     }
   }
-
-  header {
+  @media screen and (max-width: 992px) {
+    > section {
+      max-width: 400px;
+      > article {
+        > button {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    > header {
+      > h1 {
+        font-size: 2.5rem;
+      }
+    }
   }
 
   > a {
     position: absolute;
     left: 30px;
     top: 30px;
-    width: 70px;
-    height: 70px;
+    width: 10vw;
+    height: 10vw;
+    max-width: 70px;
+    max-height: 70px;
     border-radius: 100px;
     > img {
       transition: 0.5s;

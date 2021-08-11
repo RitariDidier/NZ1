@@ -26,7 +26,7 @@ const AddChallengeQuestion = () => {
         </a>
         <header>
           <h1>Add Challenge Question</h1>
-        </header>{" "}
+        </header>
         <section>
           <article>
             <img
