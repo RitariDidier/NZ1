@@ -5,7 +5,8 @@
 
 //* Components
 
+@import "./components/navbar.scss";
 @import "./components/login.scss";
 @import "./components/takeChallenge.scss";
 @import "./components/cardStyles.scss";
-@import "./components/navbar.scss";
+@import "./components/adminScreen";
