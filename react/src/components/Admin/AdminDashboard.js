@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const AdminDashboard = () => {
   return (
     <div>
-      Admin Dashboard<Link to="/admin/create-question">Create question</Link>
+      Admin Dashboard
+      <Link to="/admin/create-question">Create question</Link>
     </div>
   );
 };

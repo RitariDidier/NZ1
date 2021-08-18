@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useHistory, withRouter } from "react-router-dom";
 import Transition from "../Transition";
 
 const AddChallengeQuestion = () => {
@@ -18,16 +19,17 @@ const AddChallengeQuestion = () => {
     }
   };
 
+  const history = useHistory();
+
   return (
     <Transition>
       <main className="addChallengeQuestionComponent">
-        <a href="/admindashboard">
-          <img src="./resources/goback.png" alt="Go Back" />
-        </a>
+        <Link to="/admin">Back</Link>
         <header>
           <h1>Add Challenge Question</h1>
         </header>
         <section>
+          {/* <Link to={() => history} */}
           <article>
             <img
               src="./resources/MCQ.png"
@@ -132,4 +134,4 @@ const AddChallengeQuestion = () => {
   );
 };
 
-export default AddChallengeQuestion;
+export default withRouter(AddChallengeQuestion);

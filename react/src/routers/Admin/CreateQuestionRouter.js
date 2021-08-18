@@ -6,6 +6,7 @@ import CreateMCQQuestion from "../../components/Admin/questionForms/CreateMCQQue
 import CreateFillInBlankQuestion from "../../components/Admin/questionForms/CreateFillInBlankQuestion";
 import CreateFindInPictureQuestion from "../../components/Admin/questionForms/CreateFindInPictureQuestion";
 import CreateShortAnswerQuestion from "../../components/Admin/questionForms/CreateShortAnswerQuestion";
+import AdminRoutes from "../AdminRoutes";
 
 const CreateQuestionRouter = () => {
   const path = "/admin/create-question";
@@ -28,6 +29,7 @@ const CreateQuestionRouter = () => {
             component={CreateShortAnswerQuestion}
           />
           <Route path={`${path}`} component={AddChallengeQuestion} />
+          <Route path="/admin" component={AdminRoutes} />
         </Switch>
       </div>
     </Router>
