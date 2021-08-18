@@ -8,7 +8,7 @@
     "install-react": "cd react && npm install",
     "heroku-postbuild": "npm run install-react && npm run build",
     "server": "nodemon server.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix react\"",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix react\"",
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix react\""
   },
   "author": "Maya Ashizumi-Munn, Jake Gardner, Vito Cheng, Min Chun, Mel Toa, Tomas Sarmiento, Didier Sepulveda",
