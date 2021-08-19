@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import AdminDashboard from "../components/Admin/AdminDashboard";
+import AdminScreen from "../components/Admin/AdminScreen";
 import CreateQuestionRouter from "./Admin/CreateQuestionRouter";
 
 const AdminRoutes = () => {
@@ -13,7 +13,7 @@ const AdminRoutes = () => {
             path="/admin/create-question"
             component={CreateQuestionRouter}
           />
-          <Route path="/admin" component={AdminDashboard} />
+          <Route path="/admin" component={AdminScreen} />
         </Switch>
       </div>
     </Router>
