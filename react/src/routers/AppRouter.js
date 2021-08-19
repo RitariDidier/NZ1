@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import LoginScreen from "../components/login/LoginScreen";
 import DashboardRoutes from "./DashboardRoutes";
-import AddChallengeQuestion from "../components/addChallengeQuestion/AddChallengeQuestion";
+import AdminRoutes from "./AdminRoutes";
 
 const AppRouter = () => {
   return (
@@ -11,11 +10,7 @@ const AppRouter = () => {
       <div>
         <Switch>
           <Route exact path="/login" component={LoginScreen} />
-          <Route
-            exact
-            path="/addchallengequestion"
-            component={AddChallengeQuestion}
-          />
+          <Route path="/admin" component={AdminRoutes} />
           <Route path="/" component={DashboardRoutes} />
         </Switch>
       </div>
