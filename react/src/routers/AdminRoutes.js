@@ -9,6 +9,7 @@ const AdminRoutes = () => {
       <div>
         <Switch>
           <Route
+            exact
             path="/admin/create-question"
             component={CreateQuestionRouter}
           />

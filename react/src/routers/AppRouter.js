@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoginScreen from "../components/login/LoginScreen";
 import DashboardRoutes from "./DashboardRoutes";
 import AdminRoutes from "./AdminRoutes";
-import AddChallengeQuestion from "../components/addChallengeQuestion/AddChallengeQuestion";
 
 const AppRouter = () => {
   return (
