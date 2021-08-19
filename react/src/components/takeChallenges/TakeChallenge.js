@@ -5,7 +5,14 @@ import Transition from "../Transition";
 const TakeChallenge = () => {
 
   return (
-    <Transition>
+    <>
+      <div
+        className="bg"
+      >
+        <div
+          className="bg__Shape1"
+        ></div>
+      </div>
       <div className="containerCard">
         <div className="cards">
           <Card style="cardPrimary" number="1" />
@@ -18,7 +25,7 @@ const TakeChallenge = () => {
           <Card style="cardOctonary" number="8" />
         </div>
       </div>
-    </Transition>
+    </>
   );
 };
 

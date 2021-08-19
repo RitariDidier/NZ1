@@ -34,15 +34,16 @@
     background-color: $black;
     border: none;
     border-radius: 1rem;
-    color: $white;
-    font-size: 1.2rem;
+    color: $primary;
+    font-weight: bold;
+    font-size: 1.3rem;
     padding: 1rem;
     text-decoration: none;
     transition: 0.5s;
   }
   .navbar__field--buttons a:hover {
     border: none;
-    background-color: $white;
+    background-color: $primary;
     cursor: pointer;
     color: black;
   }
