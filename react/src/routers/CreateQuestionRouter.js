@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import AddChallengeQuestion from "../../components/addChallengeQuestion/AddChallengeQuestion";
+import AddChallengeQuestion from "../components/addChallengeQuestion/AddChallengeQuestion";
 
-import CreateMCQQuestion from "../../components/Admin/questionForms/CreateMCQQuestion";
-import CreateFillInBlankQuestion from "../../components/Admin/questionForms/CreateFillInBlankQuestion";
-import CreateFindInPictureQuestion from "../../components/Admin/questionForms/CreateFindInPictureQuestion";
-import CreateShortAnswerQuestion from "../../components/Admin/questionForms/CreateShortAnswerQuestion";
-import AdminRoutes from "../AdminRoutes";
+import CreateMCQQuestion from "../components/Admin/questionForms/CreateMCQQuestion";
+import CreateFillInBlankQuestion from "../components/Admin/questionForms/CreateFillInBlankQuestion";
+import CreateFindInPictureQuestion from "../components/Admin/questionForms/CreateFindInPictureQuestion";
+import CreateShortAnswerQuestion from "../components/Admin/questionForms/CreateShortAnswerQuestion";
+import AdminRoutes from "./AdminRoutes";
 
 const CreateQuestionRouter = () => {
   const path = "/admin/create-question";

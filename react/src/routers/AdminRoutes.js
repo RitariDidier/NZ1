@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AdminScreen from "../components/Admin/AdminScreen";
-import CreateQuestionRouter from "./Admin/CreateQuestionRouter";
+import CreateQuestionRouter from "./CreateQuestionRouter";
 
 const AdminRoutes = () => {
   return (
