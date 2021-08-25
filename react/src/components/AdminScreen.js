@@ -1,8 +1,14 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { Route, useHistory } from "react-router-dom";
+import CreateTeam from "../components/Admin/teamCreation/CreateTeam";
 
 const AdminScreen = () => {
   const history = useHistory();
+
+const groupPage = () =>{
+  history.push("/admin/create-groups");
+}
+
   return (
     <div>
       <div>
@@ -34,10 +40,11 @@ const AdminScreen = () => {
           </div>
           <div className="cardAdmin cardPeople">
             People
-            <button className="button" disabled>
+            <button className="button" onClick={groupPage}>
               Users
             </button>
-            <button className="button" disabled>
+            <Route path = "/admin/create-groups"/>
+            <button className="button" onClick={groupPage} >
               Groups
             </button>
           </div>
