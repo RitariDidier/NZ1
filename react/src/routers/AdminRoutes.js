@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AdminScreen from "../components/AdminScreen";
 import CreateQuestionRouter from "./CreateQuestionRouter";
-import CreateTeam from "../components/Admin/teamCreation/CreateTeam";
+import CreateTeam from "../components/Admin/teamCreation/CreateTeam.js";
 
 const AdminRoutes = () => {
   return (
@@ -14,8 +14,9 @@ const AdminRoutes = () => {
             path="/admin/create-question"
             component={CreateQuestionRouter}
           />
-          <Route path="/admin" component={AdminScreen} />
           <Route path ="/admin/create-groups" component={CreateTeam}/>
+          <Route path="/admin" component={AdminScreen} />
+          
         </Switch>
       </div>
     </Router>
