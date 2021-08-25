@@ -5,27 +5,16 @@ const CreateTeam = () => {
   return (
     <div>
       <div>
-        <div className="adminHeader">
-          <h3 className="adminHeader--title">Admin Create Teams</h3>
-          <h3 className="adminHeader--subtitle">The Inspectorate Games</h3>
+        <div className="adminGroup">
+          <h2 className="adminTitle">Users and Groups</h2>
         </div>
-        <div className="adminCards">
-          <div className="cardAdmin cardReview">
-            Review
-            <button className="button" disabled>
-              View Challenge Results
+        <div className="adminButtons">
+          <div className="pAndGButton">
+            <button className="button">
+              Create/Edit User
             </button>
-            <button className="button" disabled>
-              View Challenge Questions
-            </button>
-          </div>
-          <div className="cardAdmin cardPeople">
-            People
-            <button className="button" disabled>
-              Users
-            </button>
-            <button className="button" disabled>
-              Groups
+            <button className="button">
+              Create/Edit Group
             </button>
           </div>
         </div>
