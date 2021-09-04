@@ -1,0 +1,21 @@
+.fillInTheBlankQuestion {
+  width: 60vw;
+  height: calc(100vh - 100px);
+  margin: auto;
+
+  p:first-of-type {
+    margin: 30px 0 45px 0;
+    color: rgb(82, 78, 78);
+  }
+
+  > p {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    .missingWord {
+      margin-left: 5px;
+      margin-right: 1px;
+      border-radius: 5px;
+      box-shadow: none;
+    }
+  }
+}
