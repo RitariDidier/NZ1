@@ -1,9 +1,9 @@
 import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
-import fillInTheBlankQuestion from "../components/fillInTheBlank/fillInTheBlankQuestion";
 import Home from "../components/home/Home";
 import Navbar from "../components/navbar/Navbar";
 import TakeChallenge from "../components/takeChallenges/TakeChallenge";
+import InspectorateRound from "../components/inspectorateRound/InspectorateRound";
 
 const DashboardRoutes = () => {
   return (
@@ -15,8 +15,8 @@ const DashboardRoutes = () => {
           <Route exact path="/home" component={Home} />
           <Route
             exact
-            path="/fillInTheBlank"
-            component={fillInTheBlankQuestion}
+            path="/inspectorateRound"
+            component={InspectorateRound}
           />
           <Redirect to="/login" />
         </Switch>

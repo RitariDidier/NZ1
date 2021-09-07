@@ -1,7 +1,16 @@
 .fillInTheBlankQuestion {
   width: 60vw;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 230px);
+  //border: 2px solid black;
+  padding: 20px;
   margin: auto;
+
+  box-shadow: 0 20px 20px rgba(77, 74, 74, 0.13);
+  background: linear-gradient(
+    156deg,
+    rgba(254, 254, 239, 0.91) 8%,
+    rgba(199, 209, 105, 0.14) 100%
+  );
 
   p:first-of-type {
     margin: 30px 0 45px 0;

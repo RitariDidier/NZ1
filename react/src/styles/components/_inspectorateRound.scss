@@ -1,0 +1,54 @@
+.inspectorateRound {
+  width: 100vw;
+  height: calc(100vh - 90px);
+
+  > header {
+    width: 60vw;
+    margin: 20px auto 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+
+    > article {
+      p:nth-of-type(2) {
+        font-weight: 700;
+      }
+    }
+
+    #settingsButton {
+      min-width: 75px;
+      width: 10%;
+      margin: 0;
+    }
+  }
+
+  > footer {
+    width: 60vw;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    width: 20%;
+    min-width: 150px;
+    height: 40px;
+    background-color: #f3f5e4;
+    margin: 10px auto 0 auto;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #3a3d51;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 2px 2px 8px #cecfc113,
+      -2px -2px 8prgba (206, 207, 193, 0.151) c1;
+
+    &:hover {
+      background-color: #f2faa79f;
+      color: black;
+    }
+  }
+}

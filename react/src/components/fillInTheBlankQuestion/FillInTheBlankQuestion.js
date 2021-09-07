@@ -1,6 +1,6 @@
 import React from "react";
 
-const fillInTheBlankQuestion = () => {
+const FillInTheBlankQuestion = () => {
   return (
     <main className="fillInTheBlankQuestion">
       <p>Fill in the missing words: </p>
@@ -34,4 +34,4 @@ const fillInTheBlankQuestion = () => {
   );
 };
 
-export default fillInTheBlankQuestion;
+export default FillInTheBlankQuestion;
