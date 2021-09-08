@@ -1,6 +1,5 @@
 import React from "react";
 import TeamForm from './teamForm';
-import DropdownList from "react-widgets/DropdownList";
 import './form.css';
 
 const EditUser = () => {
