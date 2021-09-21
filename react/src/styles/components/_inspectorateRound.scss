@@ -1,6 +1,5 @@
 .inspectorateRound {
   width: 100vw;
-  height: calc(100vh - 90px);
 
   > header {
     width: 60vw;
@@ -23,7 +22,7 @@
   }
 
   > footer {
-    width: 60vw;
+    max-width: 700px;
     margin: 20px auto 0 auto;
     display: flex;
     justify-content: space-between;
@@ -49,6 +48,19 @@
     &:hover {
       background-color: #f2faa79f;
       color: black;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    > header {
+      flex-direction: column;
+      gap: 30px;
+
+      #settingsButton {
+        min-width: 75px;
+        width: 10%;
+        margin: 0 auto 0 auto;
+      }
     }
   }
 }
