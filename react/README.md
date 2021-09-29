@@ -1,9 +1,3 @@
-# The Inspectorate Games
-
-This code has been created for the Inspectorate Games R&D project.
-
-
-
 # Project setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

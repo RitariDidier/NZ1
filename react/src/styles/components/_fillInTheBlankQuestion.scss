@@ -1,0 +1,30 @@
+.fillInTheBlankQuestion {
+  width: 90vw;
+  //border: 2px solid black;
+  padding: 20px;
+  margin: auto;
+  max-width: 1000px;
+
+  box-shadow: 0 20px 20px rgba(77, 74, 74, 0.13);
+  background: linear-gradient(
+    156deg,
+    rgba(254, 254, 239, 0.91) 8%,
+    rgba(199, 209, 105, 0.14) 100%
+  );
+
+  p:first-of-type {
+    margin: 30px 0 45px 0;
+    color: rgb(82, 78, 78);
+  }
+
+  > p {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    .missingWord {
+      margin-left: 5px;
+      margin-right: 1px;
+      border-radius: 5px;
+      box-shadow: none;
+    }
+  }
+}

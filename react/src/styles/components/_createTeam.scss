@@ -1,0 +1,43 @@
+.adminGroup{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+.adminTitle{
+    text-align: center;
+    color: #63666e;
+    }
+}
+.adminButtons{
+    display: flex;
+  flex-direction: column;
+  gap: 4%;
+  margin-left: 1%;
+  vertical-align: center;
+  position: fixed;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    .pAndGButton{
+        
+        .button{
+            display: block;
+            padding: 0.85em 2.2em;
+            border: 0.1em solid #000000;
+            margin:0 0.3em 1.8em 0;
+            border-radius: 0.22em;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #000000;
+            vertical-align: center;
+            transition: all 0.2s;
+        }
+        .button:hover{
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+    }
+}
